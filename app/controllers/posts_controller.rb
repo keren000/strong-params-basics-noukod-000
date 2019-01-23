@@ -25,7 +25,6 @@ end
 
 private
 
-
 # We pass the permitted fields in as *args;
 # this keeps `post_params` pretty dry while
 # still allowing slightly different behavior
