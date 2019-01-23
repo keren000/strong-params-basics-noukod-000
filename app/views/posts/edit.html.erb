@@ -1,5 +1,4 @@
-<!-- <%= form_for(@post) do |f| %> -->
-<%= form_for @post, url: post_path(@post), html: { method: :put } do |f|
+ <%= form_for(@post) do |f| %> 
   <label>Post title:</label><br>
   <%= f.text_field :title %><br>
 
