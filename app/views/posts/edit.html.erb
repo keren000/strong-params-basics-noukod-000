@@ -1,5 +1,5 @@
-<%= form_for(@post) do |f| %>
-<%= form_for @post, url: student_path(@user), html: { method: :put } do |f|
+<!-- <%= form_for(@post) do |f| %> -->
+<%= form_for @post, url: post_path(@user), html: { method: :put } do |f|
   <label>Post title:</label><br>
   <%= f.text_field :title %><br>
 
